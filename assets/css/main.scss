@@ -87,6 +87,74 @@
 
 }
 
+.education-list {
+    margin: 1.5em 0 0;
+}
+
+.education-card {
+    display: flex;
+    align-items: stretch;
+    gap: 1.5em;
+    padding: 1.5em 0;
+    border-bottom: 1px solid #efefef;
+}
+
+.education-card__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 360px;
+    width: 360px;
+}
+
+.education-card__logo img {
+    width: auto;
+    height: 64px;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.education-card__content {
+    flex: 1 1 auto;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.education-card__dates,
+.education-card__school {
+    margin: 0;
+}
+
+.education-card__dates {
+    margin-bottom: 0.35em;
+    color: #666;
+    font-size: 0.95em;
+}
+
+.education-card__degree {
+    margin: 0;
+    font-size: 1.15em;
+}
+
+.education-card__school {
+    margin-top: 0.45em;
+}
+
+@include breakpoint(max-width $small) {
+    .education-card {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .education-card__logo {
+        justify-content: flex-start;
+        width: 100%;
+    }
+}
+
 $scroll_offset : 2em;
 h1:before, .anchor:before { 
     content: ''; 

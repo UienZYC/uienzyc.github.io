@@ -33,7 +33,7 @@ I aim to pursue a PhD in mechanical engineering, with a focus on intelligent and
 
 
 # 🔥 News
-- *2026.04*: &nbsp;🎉 Launched my academic homepage.
+- 2025.09: One paper on a single-drive segmented morphing wing aerial vehicle published in IEEE/ASME Transactions on Mechatronics.
 
 
 # 📝 Publications 
@@ -69,8 +69,28 @@ I aim to pursue a PhD in mechanical engineering, with a focus on intelligent and
 
 
 # 📖 Educations
-- *2024.09 – Present*, **M.S. in Mechanical Engineering**, Harbin Institute of Technology, Shenzhen
-- *2020.08 – 2024.06*, **B.S. in Mechanical Engineering**, Xi'an Jiaotong University
+<div class="education-list">
+  <div class="education-card">
+    <div class="education-card__logo">
+      <img src="images/HITSZlogo.svg" alt="Harbin Institute of Technology, Shenzhen logo">
+    </div>
+    <div class="education-card__content">
+      <p class="education-card__dates">2024.09 - Present</p>
+      <h3 class="education-card__degree">M.S. in Mechanical Engineering</h3>
+      <p class="education-card__school"><a href="https://www.hitsz.edu.cn/">Harbin Institute of Technology, Shenzhen</a></p>
+    </div>
+  </div>
+  <div class="education-card">
+    <div class="education-card__logo">
+      <img src="images/XJTUlogo.png" alt="Xi'an Jiaotong University logo">
+    </div>
+    <div class="education-card__content">
+      <p class="education-card__dates">2020.08 - 2024.06</p>
+      <h3 class="education-card__degree">B.S. in Mechanical Engineering</h3>
+      <p class="education-card__school"><a href="https://www.xjtu.edu.cn/">Xi'an Jiaotong University</a></p>
+    </div>
+  </div>
+</div>
 
 <!--
 # 💬 Invited Talks
